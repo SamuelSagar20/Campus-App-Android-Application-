@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jitcampusapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JitCampusApp">
+        <activity android:name=".TrackMapActivity"></activity>
+        <activity android:name=".MapsActivity" />
+        <activity android:name=".Semester_8_mech_Activity" />
+        <activity android:name=".Semester_8_eee_Activity" />
+        <activity android:name=".Semester_8_ece_Activity" />
+        <activity android:name=".Semester_8_cse_Activity" />
+        <activity android:name=".Semester_8_civil_Activity" />
+        <activity android:name=".Semester_7_mech_Activity" />
+        <activity android:name=".Semester_7_eee_Activity" />
+        <activity android:name=".Semester_7_ece_Activity" />
+        <activity android:name=".Semester_7_cse_Activity" />
+        <activity android:name=".Semester_7_civil_Activity" />
+        <activity android:name=".Semester_1_mech_Activity" />
+        <activity android:name=".Semester_1_eee_Activity" />
+        <activity android:name=".Semester_1_ece_Activity" />
+        <activity android:name=".Semester_1_cse_Activity" />
+        <activity android:name=".Semester_1_civil_Activity" />
+        <activity android:name=".Semester_2_mech_Activity" />
+        <activity android:name=".Semester_2_ece_Activity" />
+        <activity android:name=".Semester_2_eee_Activity" />
+        <activity android:name=".Semester_2_cse_Activity" />
+        <activity android:name=".Semester_2_civil_Activity" />
+        <activity android:name=".Semester_3_mech_Activity" />
+        <activity android:name=".Semester_3_ece_Activity" />
+        <activity android:name=".Semester_3_eee_Activity" />
+        <activity android:name=".Semester_3_cse_Activity" />
+        <activity android:name=".Semester_3_civil_Activity" />
+        <activity android:name=".Semester_4_mech_Activity" />
+        <activity android:name=".Semester_4_eee_Activity" />
+        <activity android:name=".Semester_4_ece_Activity" />
+        <activity android:name=".Semester_4_cse_Activity" />
+        <activity android:name=".Semester_4_civil_Activity" />
+        <activity android:name=".Semester_5_ece_Activity" />
+        <activity android:name=".Semester_5_eee_Activity" />
+        <activity android:name=".Semester_5_mech_Activity" />
+        <activity android:name=".Semester_5_cse_Activity" />
+        <activity android:name=".Semester_5_civil_Activity" />
+        <activity android:name=".departmentS8Activity" />
+        <activity android:name=".departmentS7Activity" />
+        <activity android:name=".departmentS1Activity" />
+        <activity android:name=".departmentS2Activity" />
+        <activity android:name=".departmentS3Activity" />
+        <activity android:name=".departmentS4Activity" />
+        <activity android:name=".departmentS5Activity" />
+        <activity
+            android:name=".Semester_6_ece_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Semester_6_eee_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Semester_6_civil_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Semester_6_mech_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".departmentS6Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Semester_6_cse_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExamDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

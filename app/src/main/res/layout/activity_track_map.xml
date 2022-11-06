@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbg"
+    tools:context=".TrackMapActivity">
+
+
+    <ImageView
+        android:layout_width="402dp"
+        android:layout_height="337dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/mappointer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showLocation" />
+
+    <TextView
+        android:layout_width="403dp"
+        android:layout_height="111dp"
+        android:background="@drawable/gradient1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:fontFamily="@font/aclonica"
+        android:text="TRACK YOUR LOCATION"
+        android:textColor="#022903"
+        android:textSize="26dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/source"
+        android:layout_width="414dp"
+        android:layout_height="48dp"
+        android:hint="Enter Your Location"
+        android:drawablePadding="10dp"
+        android:drawableTint="#0E0E0E"
+        android:drawableStart="@drawable/my_loc_vector"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <EditText
+        android:id="@+id/destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter College Name"
+        android:drawablePadding="10dp"
+        android:drawableTint="#CF0020"
+        android:drawableStart="@drawable/dest_loc_vector"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/source"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <Button
+        android:id="@+id/showLocation"
+        android:layout_width="330dp"
+        android:layout_height="64dp"
+        android:background="@drawable/button_round_edge"
+        android:text="Display Tracking"
+        android:textColor="#2EEAD7"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/destination"
+        app:layout_constraintVertical_bias="0.132" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

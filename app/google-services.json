@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "784409929175",
+    "project_id": "jitcampusapp",
+    "storage_bucket": "jitcampusapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784409929175:android:02fc8ebb1a35f727eb1792",
+        "android_client_info": {
+          "package_name": "com.example.jitcampusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784409929175-3c7tqetkqq46i7kf1ghggl4pcqdf6ps6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBESKmipZJscNN_QPXua3mcuxSfhG3J6SY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784409929175-3c7tqetkqq46i7kf1ghggl4pcqdf6ps6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

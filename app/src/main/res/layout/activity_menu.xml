@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context=".MenuActivity"
+    android:id="@+id/menu"
+    android:background="@drawable/animbg_list">
+
+
+    <TextView
+        android:id="@+id/view_about"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="9dp"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="10dp"
+        android:drawableTop="@drawable/custom_input2"
+        android:drawableBottom="@drawable/custom_input2"
+        android:text="About"
+        android:background="@drawable/custom_input2"
+        android:textAlignment="inherit"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campus_map" />
+
+    <TextView
+        android:id="@+id/campus_map"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/custom_input2"
+        android:drawableTop="@drawable/custom_input2"
+        android:drawableBottom="@drawable/custom_input2"
+        android:drawablePadding="10dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="Campus Map"
+        android:textAlignment="inherit"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_exam" />
+
+    <TextView
+        android:id="@+id/view_exam"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="296dp"
+        android:background="@drawable/custom_input2"
+        android:drawableTop="@drawable/custom_input2"
+        android:drawableBottom="@drawable/custom_input2"
+        android:drawablePadding="10dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="Exam Details"
+        android:textAlignment="inherit"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/logout_imgbtn"
+        android:layout_width="31dp"
+        android:layout_height="32dp"
+        android:src="@drawable/logggggggout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <ImageView
+        android:layout_width="369dp"
+        android:layout_height="180dp"
+        android:src="@drawable/graduate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="156dp"
+        android:layout_height="109dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/important"
+        android:padding="15dp"
+        android:text="JIT"
+        android:textColor="#430101"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="157dp"
+        android:layout_height="92dp"
+        android:src="@drawable/examclip"
+        app:layout_constraintBottom_toBottomOf="@+id/view_exam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view_exam"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="157dp"
+        android:layout_height="92dp"
+        android:src="@drawable/gmapsclip"
+        app:layout_constraintBottom_toBottomOf="@+id/campus_map"
+        app:layout_constraintEnd_toEndOf="@+id/campus_map"
+        app:layout_constraintHorizontal_bias="0.959"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/campus_map"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="157dp"
+        android:layout_height="80dp"
+        android:src="@drawable/aboutusclip"
+        app:layout_constraintBottom_toBottomOf="@+id/view_about"
+        app:layout_constraintEnd_toEndOf="@+id/view_about"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campus_map"
+        app:layout_constraintVertical_bias="0.52" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
